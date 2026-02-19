@@ -21,13 +21,13 @@ import Signout from "../src/views/Signout.jsx";
 // import ExamPage from "../src/views/ExamPage.jsx";
 // import ExamResult from "./views/ExamResult.jsx";
 // import StudentDashboard from "../src/views/StudentDashboard.jsx";
-// import Courses from "./views/Courses.jsx";
+import Courses from "./views/Courses.jsx";
 // import CoursePreview from "./views/CoursePreview.jsx";
 // import Profile from "../src/views/MyProfile.jsx";
 // import UpdateCourse from "../src/components/UpdateCourse.jsx";
 // import EmailNotification from "./views/EmailNotification.jsx";
 // import AttendanceGrade from "./views/AttendanceGrade.jsx";
-// import CreateCourseForm from "./views/createCourse.jsx";
+import CreateCourseForm from "./views/createCourse.jsx";
 // import CreateAnnouncement from "./views/CreateAnnouncement.jsx";
 // import CreateClassSchedule from "./views/CreateClassSchedule.jsx";
 
@@ -44,10 +44,10 @@ createRoot(document.getElementById("root")).render(
       <Route path="/createExam" element={<CreateExam />} />
       <Route path="/examPage/:id" element={<ExamPage />} />
       <Route path="/exam/:id/result" element={<ExamResult />} />
-      <Route path="/studentDashboard" element={<StudentDashboard />} />
+      <Route path="/studentDashboard" element={<StudentDashboard />} /> */}
       <Route path="/createCourse" element={<CreateCourseForm />} />
       <Route path="/course" element={<Courses />} />
-      <Route path="/coursePreview" element={<CoursePreview />} />
+      {/* <Route path="/coursePreview" element={<CoursePreview />} />
       <Route path="/updateCourse" element={<UpdateCourse />} />
       <Route path="/student" element={<Student />} />
       <Route path="/parentForm" element={<StudentParentForm />} />

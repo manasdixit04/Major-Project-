@@ -295,7 +295,7 @@ export default function Sidenavbar() {
           </Tooltip>
 
           {/* Parent Portal */}
-          {(userRole === "Parent" || userRole === "Admin") && (
+          {/* {(userRole === "Parent" || userRole === "Admin") && (
             <>
               <Tooltip title={open ? "" : "Parent Portal"} placement="right">
                 <ListItem disablePadding sx={{ display: "block" }}>
@@ -367,7 +367,7 @@ export default function Sidenavbar() {
                 </List>
               </Collapse>
             </>
-          )}
+          )} */}
 
           {/* Sign Out */}
           <Tooltip title={open ? "" : "Sign out"} placement="right">

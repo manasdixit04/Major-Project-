@@ -106,7 +106,7 @@ const Admin = () => {
               Quick Actions
             </h2>
 
-            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="grid sm:grid-cols-2 lg:grid-cols-2  gap-40">
               <button
                 className="
                 bg-blue-600 
@@ -145,7 +145,7 @@ const Admin = () => {
                 Teacher Dashboard
               </button>
 
-              <button
+              {/* <button
                 className="
                 bg-purple-600 
                 text-white 
@@ -162,7 +162,7 @@ const Admin = () => {
                 onClick={() => navigate("/parent")}
               >
                 Parent Dashboard
-              </button>
+              </button> */}
             </div>
           </div>
         </div>
